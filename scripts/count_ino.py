@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """Count the number of Arduino sketch (.ino) files in the repository."""
 from pathlib import Path
 
