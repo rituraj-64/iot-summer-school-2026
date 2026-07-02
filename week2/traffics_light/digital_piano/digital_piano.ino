@@ -1,6 +1,6 @@
 /*
- * Author      : Mishthi Chopra
- * Date        : 28 June 2026
+ * Author      : Ritu Raj
+ * Date        : 2 July 2026
  */
 
 const int buzzer = 8;
@@ -18,13 +18,22 @@ void setup() {
 
 void loop() {
 
-  if (digitalRead(dobtn) == LOW)
-    tone(buzzer,262);
-  else if (digitalRead(rebtn) == LOW)
-    tone(buzzer,294);
-  else if (digitalRead(mibtn) == LOW)
-    tone(buzzer,330);
-  else if (digitalRead(fabtn) == LOW)
-    tone(buzzer,349);
-  else
-    noTone(buzzer);}
+  bool d = digitalRead(dobtn)==LOW;
+  bool r = digitalRead(rebtn)==LOW;
+  bool m = digitalRead(mibtn)==LOW;
+  bool f = digitalRead(fabtn)==LOW;
+
+  int pressed = d+r+m+f;
+
+  if(pressed>=2){
+    tone(buzzer,392);}
+  else if(d){
+    tone(buzzer,262);}
+  else if(r){
+    tone(buzzer,294);}
+  else if(m){
+    tone(buzzer,330);}
+  else if(f){
+    tone(buzzer,349);}
+  else{
+    noTone(buzzer);}}
