@@ -1,4 +1,5 @@
 const uint8_t LED_PIN = 13;
+const uint8_t POT_PIN = A0;
 unsigned long blinkCount = 0;
 
 void setup() {
@@ -7,10 +8,13 @@ void setup() {
 }
 
 void loop() {
+  int potValue = analogRead(POT_PIN);
+  int interval = map(potValue, 0, 1023, 100, 1000);
+
   digitalWrite(LED_PIN, HIGH);
-  delay(500);
+  delay(interval);
   digitalWrite(LED_PIN, LOW);
-  delay(500);
+  delay(interval);
 
   blinkCount++;
   Serial.print("Blink count: ");
