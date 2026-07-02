@@ -2,7 +2,7 @@
 
 ## Student Information
 
-**Name:** Mishthi Chopra
+**Name:** Ritu Raj
 
 **Roll Number:** 25BEC064
 
