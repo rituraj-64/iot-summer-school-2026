@@ -74,6 +74,10 @@ iot-summer-school-2026/
 * Analog Read vs. Analog Write
 * Additional theory assignments
 
+**Room Comfort Management System using ESP32**
+
+The Room Comfort Management System is an IoT-based smart automation project designed to monitor indoor environmental conditions and automatically maintain a comfortable, healthy, and energy-efficient living space.
+
 ### Portfolio
 
 Contains a summary of completed work, skills acquired, project documentation, and overall learning outcomes from the IoT Summer School.
