@@ -5,6 +5,7 @@
 **Name:** Ritu Raj
 
 **Roll Number:** 25BEC064
+**College:** Shri Mata Vaishno Devi University, Katra
 
 ---
 
@@ -39,6 +40,11 @@ iot-summer-school-2026/
 
 * Arduino Fundamentals
 * LED Blink
+* LED Arrays
+* LED Matrix
+* Seven Segment Display
+* Push Button Interfacing
+* Reaction Time Game
 
 ### Week 2
 
@@ -46,6 +52,12 @@ iot-summer-school-2026/
 * Digital Piano
 * Serial Command Interface
 * PWM Night Light
+* UART Communication
+* I2C Communication
+* SPI Communication
+* Temperature Sensor Applications
+* IR Sensor Projects
+* Mini Smart Car
 * Vending Machine Simulation
 
 ### Week 3
@@ -117,12 +129,15 @@ Through this summer school, I gained practical experience in:
 
 * Arduino Programming
 * Embedded Systems Development
+* Sensor Interfacing
+* Communication Protocols (UART, SPI, I2C)
 * PWM and Motor Control
 * ESP32 Programming
+* Wi-Fi and Bluetooth Communication
+* MQTT-Based IoT Applications
 * Git & GitHub Version Control
 * Technical Documentation
 * Circuit Design and Simulation
-* ETC.
 
 ---
 

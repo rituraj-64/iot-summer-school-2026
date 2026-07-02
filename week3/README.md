@@ -54,6 +54,8 @@ https://www.tinkercad.com/things/iUMWnN7ZPa5-smart-street-light?sharecode=R5lvUF
 
 * Automatic street lighting system using an LDR to detect ambient light conditions.
 
+---
+
 ## Skills Learned
 
 * Sensor Interfacing
@@ -77,6 +79,7 @@ https://www.tinkercad.com/things/iUMWnN7ZPa5-smart-street-light?sharecode=R5lvUF
 * Servo Motor (SG90)
 * DC Motor
 * Relay Module
+* 16×2 LCD
 * 4×4 Keypad
 * LEDs
 * Buzzer
