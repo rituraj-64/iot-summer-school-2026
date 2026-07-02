@@ -88,6 +88,15 @@ Contains a summary of completed work, skills acquired, project documentation, an
 * Git & GitHub
 * Wokwi Simulator
 * Tinkercad
+* MQTT (HiveMQ)
+* Wi-Fi
+* Bluetooth & BLE
+* UART
+* SPI
+* I2C
+* DHT11/DHT22
+* HC-SR04 Ultrasonic Sensor
+* LDR
 * Servo Motor
 * DC Motor
 * Relay Module
@@ -95,7 +104,6 @@ Contains a summary of completed work, skills acquired, project documentation, an
 * Keypad
 * LEDs
 * Buzzers
-* ETC.
 
 ---
 
