@@ -2,7 +2,7 @@
 
 ## Overview
 
-This folder contains the Week 2 assignments completed during the **IoT Summer School 2026**. The projects focus on Arduino communication protocols, PWM control, serial communication, automation, and mini embedded system applications.
+This folder contains the Week 2 assignments completed during the **IoT Summer School 2026**. The projects focus on Arduino communication protocols, sensor interfacing, PWM control, serial communication, automation, and mini embedded system applications.
 
 ---
 
@@ -35,12 +35,57 @@ https://www.tinkercad.com/things/1doZOSI9VuU-vending-machine?sharecode=BH3we6ZOg
 
 * Simulates the working logic of an automated vending machine.
 
+### Temperature Sensor
+https://www.tinkercad.com/things/c29m1PQfBpM-temp-sensor?sharecode=6H_LF_yMyEnQFesnpvLcBEwRBa4-Y31gc26oAXW-kdw
+
+* Reads temperature using a sensor and displays the readings through Serial Monitor.
+
+### Temperature Sensor Fan
+https://www.tinkercad.com/things/0x4vewHQCZx-temp-sensing-fan?sharecode=mNzmE4Hqac0WVOgc-qatGW_XKfPtD1rhjzgKMH_oJ6k
+
+* Automatically controls a fan based on temperature readings.
+
+### UART Implementation
+https://www.tinkercad.com/things/hYBs9oCjHZ0-uart-protocol-data-transfer?sharecode=XiOzL8QeLbgoksu4oEJ8rB_ZVRqm29rNluysHu8uPV4
+
+* Demonstrates serial communication using UART.
+
+### I2C Implementation
+https://www.tinkercad.com/things/3DQCaeINjwG-i2c-implementation?sharecode=5GpxRQ5mNX6osc-E1l49QZDSog9hn9FtjAeqIpmDyQo
+
+* Demonstrates communication using the I2C protocol.
+
+### SPI Implementation
+https://www.tinkercad.com/things/2XfejfV06Aq-spi-implementation?sharecode=dY-H7bo3hfiNUfv40wmMi_W-V74R54fqt-ehESFSNGo
+
+* Demonstrates communication using the **Serial Peripheral Interface (SPI)** protocol.
+* Configures the Arduino as an SPI master and exchanges data with an SPI-compatible peripheral.
+* Introduces high-speed synchronous communication commonly used with displays, SD cards, sensors, and memory devices.
+
+
+### IR Sensor Door
+https://www.tinkercad.com/things/hvF5BIs6fil-ir-sensor-door?sharecode=je7-xWFMp-ldy5cXwLLvs0H3MUxpuWYN4I-ZplEw0ic
+
+* Simulates an automatic door using an IR sensor.
+
+### Mini Smart Car
+https://www.tinkercad.com/things/fdxOfhSRjVe-mini-smart-car?sharecode=S7lGfRgnIW2kCzOGJ1e5zKU79XoYIkBGmyw1vBp45_Q
+
+* Basic smart vehicle control using Arduino components.
+
+### Additional Assignment
+
+* Supplementary Arduino exercises completed during Week 2.
+
 ---
 
 ## Skills Learned
 
 * PWM Control
 * Serial Communication (UART)
+* I2C Communication
+* Sensor Interfacing
+* Push Button Handling
 * Embedded Automation
 * State Machine Design
 * Arduino Programming
@@ -51,7 +96,10 @@ https://www.tinkercad.com/things/1doZOSI9VuU-vending-machine?sharecode=BH3we6ZOg
 
 * Arduino UNO
 * LEDs
+* Push Buttons
 * Passive Buzzer
+* Temperature Sensor
+* IR Sensor
 * Servo Motor
 * DC Motor
 * Breadboard

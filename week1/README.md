@@ -2,7 +2,7 @@
 
 ## Overview
 
-This folder contains the Week 1 assignments completed during the **IoT Summer School 2026**. The exercises focus on learning Arduino programming fundamentals, digital input/output, LED control basic embedded system concepts.
+This folder contains the Week 1 assignments completed during the **IoT Summer School 2026**. The exercises focus on learning Arduino programming fundamentals, digital input/output, arrays, LED control, push buttons, and basic embedded system concepts.
 
 ---
 
