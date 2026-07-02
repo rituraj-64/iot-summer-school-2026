@@ -1,7 +1,7 @@
 /*
  * Project:     LED Blink - Potentiometer Controlled (non-blocking)
  * File:        led_blink.ino
- * Author:      Ritu Raj  (Roll: 25BEC064)
+ * Author:      Ritu Raj (Roll: 25BEC064)
  * Date:        2026-07-02
  * Description: Blinks the on-board LED (pin 13). A potentiometer on A0 sets the
  *              blink interval (100-1000 ms), sampled every loop so the speed
